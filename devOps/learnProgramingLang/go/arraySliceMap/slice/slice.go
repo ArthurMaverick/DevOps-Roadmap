@@ -18,4 +18,11 @@ func main() {
 
 	s3 := a2[:2] //slice of array a2
 	fmt.Println(s3)
+
+	a4 := []bool{true, false, true, false}
+	s4 := a4[1:3]
+	fmt.Println(s4)
+
+	//? ps: slice nao é array
+
 }

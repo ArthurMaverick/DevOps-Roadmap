@@ -43,12 +43,17 @@ docker run [OPTION] IMAGE [COMMAND] [ARG...]
 --cgroupns [NAMESPACE] - Set the cgroup namespace mode for the container.
 
 # Cpu 
-
 --cpu-period - limit CPU realtime in microseconds
 --cpu-rt-runtime -  limit CPU realtime in microseconds
 --cpu-shares - CPU shares 
 --cpus - number of CPU
 --cpuset-cpus - CPU in which to allow execution (0-3,0,1)
 --cpuset-mems - MEMs in which t o allow execution (0-3,0,1)
+
+
+
+# Detach 
+--detach, -d => run container in backgroud and print container ID
+--detach-keys => Override the key sequence for detaching a container
 
 

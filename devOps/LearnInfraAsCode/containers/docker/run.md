@@ -38,7 +38,10 @@ docker run [OPTION] IMAGE [COMMAND] [ARG...]
 --cap-drop [CAPABILITY] - Drop Linux capabilities.
 
 ## Cgroup
+
 --cgroup-parent [PATH] - Set the parent cgroup for the container.
 --cgroupns [NAMESPACE] - Set the cgroup namespace mode for the container.
 
-...
+# Cpu 
+
+--cpu

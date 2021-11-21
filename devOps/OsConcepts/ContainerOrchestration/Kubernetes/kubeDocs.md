@@ -13,7 +13,7 @@ kubectl **run** nginx-prod --image=nginx:latest
 kubectl **run** nginx-prod --image=nginx:latest **--watch**  <!-- assite mudanças-->
  
 <!--  describe pods -->
-kubectl **describe** pod nginx-prod
+kubectl **describe** pod nginx-prod 
 
 
 <!-- edit pods -->

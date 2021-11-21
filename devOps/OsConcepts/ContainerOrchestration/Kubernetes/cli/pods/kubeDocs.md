@@ -21,6 +21,7 @@ kubectl **edit** pod nginx-prod
 
 <!-- delete pods -->
 kubectl **delete** -f ./manifest.yml
+kubectl **delete** --all
 
 <!-- get -->
 kubectl **get** pods

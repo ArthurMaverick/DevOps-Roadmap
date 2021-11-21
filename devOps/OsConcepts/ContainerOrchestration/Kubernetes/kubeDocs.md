@@ -10,7 +10,7 @@ kubectl explay pods, svc                      '# Obtenha a documentação de man
 
 <!-- create pods -->
 kubectl **run** nginx-prod --image=nginx:latest
-                  <!-- --watch  asiste mudanças-->
+kubectl **run** nginx-prod --image=nginx:latest **--watch**  <!-- assite mudanças-->
  
 <!--  describe pods -->
 kubectl **describe** pod nginx-prod
@@ -19,3 +19,12 @@ kubectl **describe** pod nginx-prod
 <!-- edit pods -->
 kubectl **edit** pod nginx-prod
 
+<!-- delete pods -->
+kubectl **delete** -f ./manifest.yml
+
+<!-- get -->
+kubectl **get** pods
+kubectl **get** pods -o wide  <!-- infos limpas do pod-->
+
+<!-- exec -->
+kubectl **exec** -it nginx-prod -- bash <!-- atach terminal da maquina ao terminal do container -->

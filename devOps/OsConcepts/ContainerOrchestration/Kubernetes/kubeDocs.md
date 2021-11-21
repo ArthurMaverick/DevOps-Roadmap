@@ -6,7 +6,7 @@ kubectl apply -f ./dir                        '# criar recursos e todos arquivos
 kubectl apply -f https://git.io/vPieo         '# criar recursos a partir de URL
 kubectl create deployment nginx --image-nginx '# iniciar uma unica instancia do nginx
 kubectl explay pods, svc                      '# Obtenha a documentação de manifesto do pod
-<<<<<<< HEAD
+
 
 <!-- create pods -->
 kubectl **run** nginx-prod --image=nginx:latest

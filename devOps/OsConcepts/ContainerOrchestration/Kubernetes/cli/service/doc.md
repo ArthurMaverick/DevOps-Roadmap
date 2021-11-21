@@ -1,0 +1,1 @@
+kubectl get service <!-- mostra serviços -->

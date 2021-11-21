@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: portal-configmap
+data:
+  IP_SITEMA: 172.18.0.2:30001
+  

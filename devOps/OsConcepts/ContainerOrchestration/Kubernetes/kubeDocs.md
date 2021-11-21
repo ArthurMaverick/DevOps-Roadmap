@@ -12,7 +12,7 @@ kubectl explay pods, svc                      '# Obtenha a documentação de man
 kubectl **run** nginx-prod --image=nginx:latest
                   <!-- --watch  asiste mudanças-->
  
-<!-- describe pods -->
+<!--  describe pods -->
 kubectl **describe** pod nginx-prod
 
 
